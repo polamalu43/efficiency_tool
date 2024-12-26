@@ -8,5 +8,5 @@ class AttendanceToolView(View):
         context = {
             'count': 1
         }
-        return render(request, 'pages/attendance_tool.html', context)
+        return render(request, 'pages/attendance_tools/index.html', context)
 
